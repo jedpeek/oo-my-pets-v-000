@@ -23,4 +23,8 @@ class Owner
     @@all = []
   end
 
+  def species
+    puts "I am a #{@species}."
+  end
+
 end
