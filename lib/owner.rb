@@ -15,6 +15,7 @@ class Owner
 
   def self.count
     @@all.length
+    binding.pry
   end
   def self.reset_all
     @@all = []
