@@ -44,7 +44,6 @@ class Owner
   end
 
   def walk_dogs
-    binding.pry
     self.pets[:dogs].for_each do {|dog| dog.mood = "happy"}
   end
 
