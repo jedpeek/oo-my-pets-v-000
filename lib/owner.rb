@@ -45,7 +45,7 @@ class Owner
 
   def walk_dogs
     binding.pry
-    self.pets[:dogs].mood = 'happy'
+    self.pets[:dogs].mood= 'happy'
   end
 
 
