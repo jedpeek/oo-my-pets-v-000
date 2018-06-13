@@ -7,7 +7,7 @@ class Owner
     @@all << self
   end
 
-  def self.all_owners
+  def self.all
     @@all.dup.freeze
   end
 end
