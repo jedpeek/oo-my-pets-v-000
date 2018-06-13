@@ -10,4 +10,5 @@ class Dog
 
   def mood=(mood)
     @mood = mood
+  end
 end
