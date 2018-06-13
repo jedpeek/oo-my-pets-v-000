@@ -57,6 +57,7 @@ class Owner
 
   def sell_pets
     self.pets.map{|k, v| v.mood = "nervous"}
+    binding.pry
   end
 
   def list_pets
