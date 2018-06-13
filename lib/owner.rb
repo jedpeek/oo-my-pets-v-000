@@ -55,6 +55,8 @@ class Owner
     self.pets[:fishes].map{|fish| fish.mood = "happy"}
   end
 
+  
+
   def list_pets
     fishes = @pets[:fishes].length
     dogs = @pets[:dogs].length
