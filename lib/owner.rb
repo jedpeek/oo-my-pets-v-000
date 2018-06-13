@@ -66,9 +66,4 @@ class Owner
     "I have #{fishes} fish, #{dogs} dog(s), and #{cats} cat(s)."
   end
 
-  def pets=(pets)
-    @pets
-  end
-
-
 end
