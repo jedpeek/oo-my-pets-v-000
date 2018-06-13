@@ -32,7 +32,7 @@ class Owner
   end
 
   def buy_fish(name)
-    Fish.new("Bubbles")
+    Fish.new(name)
     binding.pry
   end
 
