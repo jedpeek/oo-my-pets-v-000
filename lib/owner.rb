@@ -43,8 +43,8 @@ class Owner
     self.pets[:dogs] << Dog.new(name)
   end
 
-  def walk_dogs(mood)
-    self.pets[:dogs].map{|dog| dog.mood = mood}
+  def walk_dogs
+    self.pets[:dogs].map{|dog| dog.mood = "happy"}
   end
 
   def play_with_cats
