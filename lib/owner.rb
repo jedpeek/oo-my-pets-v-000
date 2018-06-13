@@ -12,7 +12,7 @@ class Owner
   end
 
   def self.count
-    @@all.length
+    @@all.uniq.length
   end
   def self.reset_all
     @@all.length
