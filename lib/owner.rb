@@ -31,4 +31,8 @@ class Owner
     @pets
   end
 
+  def buy_fish
+    fish.new("Bubbles")
+  end
+
 end
