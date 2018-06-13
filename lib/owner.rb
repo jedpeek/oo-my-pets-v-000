@@ -47,5 +47,8 @@ class Owner
     self.pets[:dogs].mood=(mood)
   end
 
+  def list_pets
+    
+
 
 end
