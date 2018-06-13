@@ -1,6 +1,7 @@
 class Owner
   attr_accessor :name
   @@all = []
+
   def initialize(name)
     @name = name
     @pets = {fishes: [], cats: [], dogs: []}
@@ -12,7 +13,7 @@ class Owner
   end
 
   def self.count
-    @@all.uniq.length
+    @@all.length
   end
   def self.reset_all
     @@all = []
