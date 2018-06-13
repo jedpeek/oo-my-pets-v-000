@@ -8,6 +8,6 @@ class Owner
   end
 
   def self.all_owners
-    @@owners
+    @@owners.dup.freeze
   end
 end
