@@ -56,9 +56,9 @@ class Owner
   end
 
   def sell_pets
-    self.pets[:fishes].map{|fish| fish.mood = "nervous"}
-    self.pets[:cats].map{|cat| cat.mood = "nervous"}
-    self.pets[:dogs].map{|dog| dog.mood = "nervous"}
+    self.pets[:fishes].each{|fish| fish.mood = "nervous"}
+    self.pets[:cats].each{|cat| cat.mood = "nervous"}
+    self.pets[:dogs].each{|dog| dog.mood = "nervous"}
   end
 
   def list_pets
