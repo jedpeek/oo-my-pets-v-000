@@ -59,6 +59,7 @@ class Owner
     self.pets[:fishes].map{|fish| fish.mood = "nervous"}
     self.pets[:cats].map{|cat| cat.mood = "nervous"}
     self.pets[:dogs].map{|dog| dog.mood = "nervous"}
+    binding.pry
   end
 
   def list_pets
