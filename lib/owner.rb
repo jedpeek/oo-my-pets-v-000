@@ -1,6 +1,6 @@
 class Owner
   attr_accessor :name
-  @@owners = []
+  @@all = []
   def initialize(name)
     @name = name
     @pets = {fishes: [], cats: [], dogs: []}
@@ -8,6 +8,6 @@ class Owner
   end
 
   def self.all_owners
-    @@owners.dup.freeze
+    @@all.dup.freeze
   end
 end
